@@ -1,0 +1,41 @@
+------------------------- RESULT
+
+boxes: ultralytics.engine.results.Boxes object
+keypoints: ultralytics.engine.results.Keypoints object
+masks: None
+names: {0: 'person'}
+obb: None
+orig_img: array([[[247, 242, 243],
+        [247, 242, 243],
+        [247, 242, 243],
+        ...,
+        [248, 246, 246],
+        [248, 246, 246],
+        [248, 246, 246]],
+
+       [[247, 242, 243],
+        [247, 242, 243],
+        [247, 242, 243],
+        ..., dtype=uint8)
+orig_shape: (534, 626)
+path: '/content/dance-movement-portrait-man-studio-happiness-energy-performance-with-smile-creative-happy-male-person-dancing-moving-action-pose-mockup-white-background_590464-214483.jpg'
+probs: None
+save_dir: None
+speed: {'preprocess': 21.19135856628418, 'inference': 3170.2871322631836, 'postprocess': 26.472806930541992}
+
+------------------------- BOXES
+
+Boxes : ultralytics.engine.results.Boxes object with attributes:
+
+cls: tensor([0.])
+conf: tensor([0.9508])
+data: tensor([[ 48.0000,  25.0000, 595.0000, 495.0000,   0.9508,   0.0000]])
+id: None
+is_track: False
+orig_shape: (534, 626)
+shape: torch.Size([1, 6])
+xywh: tensor([[321.5000, 260.0000, 547.0000, 470.0000]])
+xywhn: tensor([[0.5136, 0.4869, 0.8738, 0.8801]])
+xyxy: tensor([[ 48.,  25., 595., 495.]])
+xyxyn: tensor([[0.0767, 0.0468, 0.9505, 0.9270]])
+Masks : None
